@@ -16,7 +16,7 @@ public class VeintisiestePrincipal
 		sc.nextLine();
 
 		VeintisieteAlum arrayAlum[] = new VeintisieteAlum[numAlum];
-		int count = 0;
+
 		String nombreAlum = " ";
 		double notaAlum = 0;
 		double notaMedia = 0;
@@ -40,13 +40,12 @@ public class VeintisiestePrincipal
 
 		for (int j = 0; j < arrayAlum.length; j++)
 		{
-			if (arrayAlum[j].getNota() > notaMedia)
+			if (arrayAlum[j].getNota() > notaMedia / numAlum)
 			{
-				count = j;
+				System.out.println(arrayAlum[j].getNombre()
+						+ " tiene una nota por encima de la media de clase y su nota es: " + arrayAlum[j].getNota());
 
 			}
-			System.out.println(arrayAlum[count].getNombre()
-					+ " tiene una nota por encima de la media de clase y su nota es: " + arrayAlum[count].getNota());
 
 		}
 
