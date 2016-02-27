@@ -1,6 +1,6 @@
 package bloque6;
 
-import java.util.Scanner;
+import java.util.Random;
 
 public class treinta
 {
@@ -8,23 +8,17 @@ public class treinta
 	public static void main(String[] args)
 	{
 
-		System.out.println("Calcula la suma de n numeros");
+		Random rdn = new Random();
 
-		System.out.println("¿Cuanto numeros quieres introducir?");
-		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);
-		int repeticiones = sc.nextInt();
+		int array[] = new int[rdn.nextInt(100) + 1];
 		int suma = 0;
-		int count = 0;
-		do
+		for (int i = 0; i < array.length; i++)
 		{
-			System.out.println("Introduce el numero " + (count + 1) + " de " + repeticiones);
-			int numeroIntro = sc.nextInt();
-			suma += numeroIntro;
-			count++;
-		} while (repeticiones != count);
-
-		System.out.println("La suma es: " + suma);
+			array[i] = rdn.nextInt(100) + 1;
+			suma += array[i];
+			System.out.print(array[i] + ", ");
+		}
+		System.out.print("\n" + suma);
 
 	}
 

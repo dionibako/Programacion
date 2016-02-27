@@ -7,7 +7,7 @@ public class veintinuevePrincipal
 
 	public static void main(String[] args)
 	{
-		veintinuevePrincipal arrayEmple[] = new veintinuevePrincipal[2];
+		veintinueveEmpleado arrayEmple[] = new veintinueveEmpleado[10];
 		int count = 0;
 		for (int i = 0; i < arrayEmple.length; i++)
 		{
@@ -19,17 +19,21 @@ public class veintinuevePrincipal
 			System.out.println("Introduce el sueldo del empleado " + (i + 1));
 			int sueldo = sc.nextInt();
 			veintinueveEmpleado empleado = new veintinueveEmpleado(nombre, sueldo);
-			int sueldoAlto = 0;
-			String nombreMayor = "";
-			if (empleado.getSueldo() < empleado.getSueldo())
+			arrayEmple[i] = empleado;
+		}
+
+		for (int j = 0; j < arrayEmple.length; j++)
+		{
+
+			if (arrayEmple[count].getSueldo() < arrayEmple[j].getSueldo())
 			{
-				sueldoAlto = empleado.getSueldo();
-				nombreMayor = empleado.getNombre();
+				count = j;
 			}
 
-			System.out.println("El sueldo mas alto es de " + nombreMayor + " " + sueldoAlto);
-
 		}
+
+		System.out.println(
+				"El sueldo mas alto es de " + arrayEmple[count].getNombre() + " " + arrayEmple[count].getSueldo());
 
 	}
 
