@@ -1,7 +1,7 @@
 package bloque2;
 import java.util.Scanner;
 
-public class siete
+public class Siete
 {
 
 	public static void main(String[] args)

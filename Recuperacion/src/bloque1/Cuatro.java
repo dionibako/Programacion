@@ -1,6 +1,6 @@
 package bloque1;
 
-public class cuatro
+public class Cuatro
 {
 
 	public static void main(String[] args)

@@ -1,7 +1,7 @@
 package bloque3;
 import java.util.Scanner;
 
-public class once
+public class Once
 {
 
 	public static void main(String[] args)

@@ -2,7 +2,7 @@ package bloque6;
 
 import java.util.Random;
 
-public class treinta
+public class Treinta
 {
 
 	public static void main(String[] args)

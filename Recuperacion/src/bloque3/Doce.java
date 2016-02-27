@@ -3,7 +3,7 @@ package bloque3;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class doce
+public class Doce
 {
 
 	public static void main(String[] args) throws IOException

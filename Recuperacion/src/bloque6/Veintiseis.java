@@ -2,7 +2,7 @@ package bloque6;
 
 import java.util.Scanner;
 
-public class veintiseis
+public class Veintiseis
 {
 
 	public static void main(String[] args)

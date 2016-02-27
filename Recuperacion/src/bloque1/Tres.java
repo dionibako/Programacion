@@ -1,6 +1,6 @@
 package bloque1;
 
-public class tres
+public class Tres
 {
 
 	public static void main(String[] args)

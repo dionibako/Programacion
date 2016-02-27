@@ -1,6 +1,6 @@
 package bloque4;
 
-public class diecisiete
+public class Diecisiete
 {
 
 	public static void main(String[] args)

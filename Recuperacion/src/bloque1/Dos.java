@@ -1,6 +1,6 @@
 package bloque1;
 
-public class dos
+public class Dos
 {
 
 	public static void main(String[] args)

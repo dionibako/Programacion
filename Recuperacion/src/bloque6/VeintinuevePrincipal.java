@@ -2,12 +2,12 @@ package bloque6;
 
 import java.util.Scanner;
 
-public class veintinuevePrincipal
+public class VeintinuevePrincipal
 {
 
 	public static void main(String[] args)
 	{
-		veintinueveEmpleado arrayEmple[] = new veintinueveEmpleado[10];
+		VeintinueveEmpleado arrayEmple[] = new VeintinueveEmpleado[10];
 		int count = 0;
 		for (int i = 0; i < arrayEmple.length; i++)
 		{
@@ -18,7 +18,7 @@ public class veintinuevePrincipal
 			String nombre = sc.nextLine();
 			System.out.println("Introduce el sueldo del empleado " + (i + 1));
 			int sueldo = sc.nextInt();
-			veintinueveEmpleado empleado = new veintinueveEmpleado(nombre, sueldo);
+			VeintinueveEmpleado empleado = new VeintinueveEmpleado(nombre, sueldo);
 			arrayEmple[i] = empleado;
 		}
 

@@ -2,7 +2,7 @@ package bloque2;
 
 import java.util.Scanner;
 
-public class diez
+public class Diez
 {
 
 	public static void main(String[] args)

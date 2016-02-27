@@ -1,6 +1,6 @@
 package bloque6;
 
-public class veintinueveEmpleado
+public class VeintinueveEmpleado
 {
 
 	String nombre = " ";
@@ -10,7 +10,7 @@ public class veintinueveEmpleado
 	 * @param nombre
 	 * @param sueldo
 	 */
-	public veintinueveEmpleado(String nombre, int sueldo)
+	public VeintinueveEmpleado(String nombre, int sueldo)
 	{
 		this.nombre = nombre;
 		this.sueldo = sueldo;
