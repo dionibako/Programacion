@@ -9,7 +9,6 @@ public class diez
 	{
 		System.out.println("Introduce un numero como maximo de 5 cifras");
 		Scanner sc = new Scanner(System.in);
-		
 
 		int numero = sc.nextInt();
 		int numerofijo = numero;

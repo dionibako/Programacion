@@ -19,11 +19,13 @@ public class veintiseis
 			int numero = sc.nextInt();
 			arrayNumero[i] = numero;
 		}
-
+		int suma = 0;
 		for (int i = 0; i < arrayNumero.length; i += 2)
 		{
-			System.out.print(arrayNumero[i] + ", ");
+			suma += arrayNumero[i];
+
 		}
+		System.out.print("La media es: " + (suma / 5));
 
 	}
 
