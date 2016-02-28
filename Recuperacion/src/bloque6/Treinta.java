@@ -18,7 +18,7 @@ public class Treinta
 			suma += array[i];
 			System.out.print(array[i] + ", ");
 		}
-		System.out.print("\n" + suma);
+		System.out.print("\n\nLa suma de todos los numero es: " + suma);
 
 	}
 
