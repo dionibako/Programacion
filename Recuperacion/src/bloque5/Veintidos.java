@@ -1,4 +1,5 @@
 package bloque5;
+
 import java.util.Scanner;
 
 public class Veintidos
@@ -10,6 +11,7 @@ public class Veintidos
 
 		Scanner sc = new Scanner(System.in);
 		int numero = sc.nextInt();
+		System.out.println("La table de multiplicar de " + numero + " es");
 
 		for (int i = 1; i <= 10; i++)
 		{
